@@ -23,7 +23,7 @@ insert into Products (product_id,product_name,price,stock,category_id) value
 (4,'Giày thể thao',1200000 , 20 ,2);
 
 SET SQL_SAFE_UPDATES = 0;
-update Products set price = 26000000 where product_id=1;
+update Products set price = 28000000 where product_name='iPhone 15';
 update Products set stock = stock + 10 where category_id=1;
 SET SQL_SAFE_UPDATES = 1;
 
